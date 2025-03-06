@@ -1,0 +1,70 @@
+/* * Global */
+* {
+    margin: 15px;
+    justify-content: center;
+     font-family: "Andika", sans-serif;
+     color: white;
+ }
+ /* * Part */
+ html {
+     font-size: 15px;
+     
+     
+ }
+ 
+ main {
+     /* background-color: rgb(239, 169, 169); */
+     background-color: #4D1214;
+     margin-left: 20%;
+     margin-right: 20%;
+     background-image: url("../images/background.png");
+     background-position: bottom;
+     
+ }
+ section {
+     display: flex; 
+ }
+ aside {
+     width: 40%;
+ }
+ 
+ /* * Minor Parts & Text */
+ 
+ h1, h2 {
+     font-family: "Protest Guerrilla", sans-serif; 
+ }
+ h1 {
+     font-size: 2.5rem;
+ }
+ h2 {
+     font-size: 1.5rem;
+ }
+ aside strong {
+     font-style: normal;
+ }
+ aside p {
+     font-style: italic;
+ }
+ p {
+     line-height: 25px;
+ }
+ small, blockquote {
+     display: block;
+     text-align: right;
+     margin-right: 20px;
+ }
+ div {
+     /* display: flex;
+     flex-direction: row; */
+     display: inline-grid;
+     grid-template-columns: 30% 30% 30%;
+     justify-items: end;
+     margin-top: -15px;
+     margin-bottom: -15px;
+ }
+ div a img {
+     
+     width: 80%;
+ }
+ 
+ 
